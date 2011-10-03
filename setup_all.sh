@@ -1,6 +1,5 @@
 #!/bin/bash
-cd ..
-ln -s myconf/.vimrc .vimrc
-ln -s myconf/.gdbinit .gdbinit
-ln -s myconf/.atoprc .atoprc
-ln -s myconf/.gitconfig .gitconfig
+ln -s `pwd`/.vimrc ~/.vimrc
+ln -s `pwd`/.gdbinit ~/.gdbinit
+ln -s `pwd`/.atoprc ~/.atoprc
+ln -s `pwd`/.gitconfig ~/.gitconfig
